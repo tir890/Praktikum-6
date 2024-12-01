@@ -10,12 +10,12 @@ Mata Kuliah : Bahasa pemrograman
 
 ## Program Sederhana Penggunaan Fungsi Sebagai Daftar Nilai Mahasiswa
 
-### Inisialisasi
+### 1. Inisialisasi
 ```python
 mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk dictionary (contohnya: {"nama": "Budi", "nilai": 90}).
 ```
 
-### Fungsi 
+### 2. Fungsi 
 
 **a)** `tambah(nama, nilai)`
 
@@ -34,3 +34,24 @@ Jika mahasiswa tidak kosong, program akan mencetak semua data dengan menggunakan
 Jika kosong, akan mencetak pesan "Belum ada data."
 
 **Output**: Daftar data mahasiswa yang ada.
+
+**c)** `hapus(nama)`
+
+**Input**: Nama mahasiswa yang ingin dihapus.
+
+**Proses**:
+
+Menggunakan list comprehension untuk membuat list baru yang hanya berisi data mahasiswa selain nama yang dimasukkan. 
+Data lama diganti dengan list baru tanpa nama yang dihapus.
+
+**Output**: Tidak ada, hanya memodifikasi list `mahasiswa`.
+
+**d)** `ubah(nama, nilai)`
+
+**Input**: Nama mahasiswa dan nilai baru.
+
+**Proses**:
+Mengecek setiap elemen di list `mahasiswa`.
+Jika ditemukan nama yang cocok, nilai pada dictionary tersebut diperbarui.
+
+**Output**: Tidak ada, hanya memodifikasi list `mahasiswa`.
