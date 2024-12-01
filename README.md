@@ -12,5 +12,16 @@ Mata Kuliah : Bahasa pemrograman
 
 ### Inisialisasi
 ```python
-`mahasiswa = []`: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk dictionary (contohnya: {"nama": "Budi", "nilai": 90}).
+mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk dictionary (contohnya: {"nama": "Budi", "nilai": 90}).
 ```
+
+### Fungsi 
+```python
+tambah(nama, nilai)
+```
+
+Input: Nama dan nilai mahasiswa.
+
+Proses: Menambahkan dictionary berisi nama dan nilai ke dalam `list mahasiswa`.
+
+Output: Tidak ada, hanya menambah data ke list.
