@@ -10,6 +10,14 @@ Mata Kuliah : Bahasa pemrograman
 
 ## Program Sederhana Penggunaan Fungsi Sebagai Daftar Nilai Mahasiswa
 
+### Penjelasan Program
+Program ini adalah sistem manajemen data nilai mahasiswa yang memungkinkan pengguna untuk:
+1. Menambah data mahasiswa berupa nama dan nilai.
+2. Melihat daftar mahasiswa yang telah dimasukkan.
+3. Menghapus data mahasiswa berdasarkan nama.
+4. Mengubah nilai mahasiswa berdasarkan nama.
+Tujuan dari program ini adalah untuk memberikan latihan dalam mengelola data menggunakan list dan dictionary, serta menerapkan logika pengolahan data menggunakan fungsi.
+
 ### 1. Inisialisasi
 ```python
 mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk dictionary (contohnya: {"nama": "Budi", "nilai": 90}).
