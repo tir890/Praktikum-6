@@ -19,6 +19,8 @@ Program ini adalah sistem manajemen data nilai mahasiswa yang memungkinkan pengg
 
 Tujuan dari program ini adalah untuk memberikan latihan dalam mengelola data menggunakan list dan dictionary, serta menerapkan logika pengolahan data menggunakan fungsi.
 
+## Alur Penjelasan Kode Program
+
 ### 1. Inisialisasi
 ```python
 mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk dictionary (contohnya: {"nama": "Budi", "nilai": 90}).
