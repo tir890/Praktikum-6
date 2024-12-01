@@ -17,11 +17,23 @@ mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk 
 
 ### Fungsi 
 ```python
-tambah(nama, nilai)
+a) tambah(nama, nilai)
 ```
 
-Input: Nama dan nilai mahasiswa.
+**Input**: Nama dan nilai mahasiswa.
 
-Proses: Menambahkan dictionary berisi nama dan nilai ke dalam `list mahasiswa`.
+**Proses**: Menambahkan dictionary berisi nama dan nilai ke dalam `list mahasiswa`.
 
-Output: Tidak ada, hanya menambah data ke list.
+**Output**: Tidak ada, hanya menambah data ke list.
+
+```python
+b) tampilkan ()
+```
+
+**Proses**:
+
+Jika mahasiswa tidak kosong, program akan mencetak semua data dengan menggunakan enumerasi (nomor otomatis) pada setiap elemen.
+
+Jika kosong, akan mencetak pesan "Belum ada data."
+
+**Output**: Daftar data mahasiswa yang ada.
