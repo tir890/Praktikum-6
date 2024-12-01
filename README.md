@@ -99,13 +99,12 @@ Memanggil fungsi ubah(nama, nilai_baru).
 Program keluar dari loop dan berhenti.
 Lainnya: Jika input tidak valid, program menampilkan pesan "Pilihan tidak valid."
 
-## Hasil Kode Program
-
-## Gambar Flowchart 
-
 ### 4. Alur Program
 1. Program akan terus berjalan dalam loop **while True** sampai pengguna memilih keluar `(pilihan == "5")`.
 2. Pengguna memilih opsi dari menu.
 3. Berdasarkan pilihan, program memanggil fungsi yang relevan.
 4. Jika pengguna memilih keluar, program berhenti.
+
+## Hasil Kode Program
+![foto](https://github.com/tir890/foto/blob/cd3a05f6f1b321c8fbb6937c528a7b0c360aba00/Screenshot%202024-12-01%20154021.png)
 
