@@ -16,9 +16,8 @@ mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa dalam bentuk 
 ```
 
 ### Fungsi 
-```python
-a) tambah(nama, nilai)
-```
+
+**a)** `tambah(nama, nilai)`
 
 **Input**: Nama dan nilai mahasiswa.
 
@@ -26,9 +25,7 @@ a) tambah(nama, nilai)
 
 **Output**: Tidak ada, hanya menambah data ke list.
 
-```python
-b) tampilkan ()
-```
+**b)** `tampilkan ()`
 
 **Proses**:
 
