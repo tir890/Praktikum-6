@@ -61,9 +61,30 @@ Jika ditemukan nama yang cocok, nilai pada dictionary tersebut diperbarui.
 **a)** `Tampilan Menu`
 
 Meminta pengguna memilih salah satu opsi dari menu:
-
 1. untuk menambah data mahasiswa.
 2. untuk menampilkan semua data mahasiswa.
 3. untuk menghapus data mahasiswa berdasarkan nama.
 4. untuk mengubah nilai mahasiswa berdasarkan nama.
 5. untuk keluar dari program.
+
+**b)** `Proses Berdasarkan Pilihan`
+
+`pilihan == "1":`
+Meminta input nama dan nilai mahasiswa.
+Memanggil fungsi tambah(nama, nilai) untuk menyimpan data.
+
+`pilihan == "2":`
+Memanggil fungsi tampilkan() untuk menampilkan semua data yang tersimpan.
+
+`pilihan == "3":`
+Meminta input nama mahasiswa yang akan dihapus.
+Memanggil fungsi hapus(nama).
+
+`pilihan == "4":`
+Meminta input nama mahasiswa yang datanya akan diubah dan nilai baru.
+Memanggil fungsi ubah(nama, nilai_baru).
+
+`pilihan == "5":`
+Program keluar dari loop dan berhenti.
+Lainnya: Jika input tidak valid, program menampilkan pesan "Pilihan tidak valid."
+
