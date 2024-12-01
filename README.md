@@ -16,6 +16,7 @@ Program ini adalah sistem manajemen data nilai mahasiswa yang memungkinkan pengg
 2. Melihat daftar mahasiswa yang telah dimasukkan.
 3. Menghapus data mahasiswa berdasarkan nama.
 4. Mengubah nilai mahasiswa berdasarkan nama.
+
 Tujuan dari program ini adalah untuk memberikan latihan dalam mengelola data menggunakan list dan dictionary, serta menerapkan logika pengolahan data menggunakan fungsi.
 
 ### 1. Inisialisasi
