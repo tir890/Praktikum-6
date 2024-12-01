@@ -55,3 +55,15 @@ Mengecek setiap elemen di list `mahasiswa`.
 Jika ditemukan nama yang cocok, nilai pada dictionary tersebut diperbarui.
 
 **Output**: Tidak ada, hanya memodifikasi list `mahasiswa`.
+
+## 3. Menu Utama
+
+**a)** `Tampilan Menu`
+
+Meminta pengguna memilih salah satu opsi dari menu:
+
+1. untuk menambah data mahasiswa.
+2. untuk menampilkan semua data mahasiswa.
+3. untuk menghapus data mahasiswa berdasarkan nama.
+4. untuk mengubah nilai mahasiswa berdasarkan nama.
+5. untuk keluar dari program.
