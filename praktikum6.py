@@ -1,22 +1,48 @@
-mahasiswa = []
+data_mahasiswa = {}
 
-def tambah(nama, nilai): mahasiswa.append({"nama": nama, "nilai": nilai})
-def tampilkan(): 
-    if mahasiswa: 
-        [print(f"{i+1}. Nama: {m['nama']}, Nilai: {m['nilai']}") for i, m in enumerate(mahasiswa)]
-    else: print("Belum ada data.")
-def hapus(nama): 
-    global mahasiswa
-    mahasiswa = [m for m in mahasiswa if m["nama"] != nama]
-def ubah(nama, nilai): 
-    for m in mahasiswa: 
-        if m["nama"] == nama: m["nilai"] = nilai
+def tampilkan_data():
+    print("\nDaftar Nilai")
+    print("="*66)
+    print("| NO |       NAMA      |    NIM    | TUGAS | UTS | UAS |  AKHIR  |")
+    print("="*66)
+    if data_mahasiswa:
+        for no, (nama, data) in enumerate(data_mahasiswa.items(), start=1):
+            akhir = (data['tugas'] * 0.3) + (data['uts'] * 0.35) + (data['uas'] * 0.35)
+            print(f"| {no:<2} | {nama:<15} | {data['nim']:<8} | {data['tugas']:<5.0f} | {data['uts']:<3.0f} | {data['uas']:<3.0f} | {akhir:<7.2f} |")
+    else:
+        print("|                       TIDAK ADA DATA                      |")
+    print("="*66)
+
+def tambah_data():
+    nama, nim = input("Nama: ").strip(), input("NIM: ").strip()
+    try:
+        tugas, uts, uas = (float(input(f"Nilai {k}: ")) for k in ["Tugas", "UTS", "UAS"])
+        data_mahasiswa[nama] = {'nim': nim, 'tugas': tugas, 'uts': uts, 'uas': uas}
+        print("Data berhasil ditambahkan!")
+    except ValueError:
+        print("Nilai harus berupa angka!")
+
+def hapus_data():
+    nama = input("Nama yang akan dihapus: ").strip()
+    print("Data berhasil dihapus!" if data_mahasiswa.pop(nama, None) else "Data tidak ditemukan!")
+
+def ubah_data():
+    nama = input("Nama yang akan diubah: ").strip()
+    if nama in data_mahasiswa:
+        try:
+            tugas, uts, uas = (float(input(f"Nilai baru {k}: ")) for k in ["Tugas", "UTS", "UAS"])
+            data_mahasiswa[nama].update({'tugas': tugas, 'uts': uts, 'uas': uas})
+            print("Data berhasil diubah!")
+        except ValueError:
+            print("Nilai harus berupa angka!")
+    else:
+        print("Data tidak ditemukan!")
 
 while True:
-    menu = input("\n1.Tambah 2.Tampil 3.Hapus 4.Ubah 5.Keluar: ")
-    if menu == "1": tambah(input("Nama: "), float(input("Nilai: ")))
-    elif menu == "2": tampilkan()
-    elif menu == "3": hapus(input("Nama yang dihapus: "))
-    elif menu == "4": ubah(input("Nama yang diubah: "), float(input("Nilai baru: ")))
-    elif menu == "5": break
-    else: print("Pilihan tidak valid.")
+    menu = input("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar] Pilih menu: ").lower()
+    if menu == 'l': tampilkan_data()
+    elif menu == 't': tambah_data()
+    elif menu == 'h': hapus_data()
+    elif menu == 'u': ubah_data()
+    elif menu == 'k': print("Terima kasih!"); break
+    else: print("Pilihan tidak valid!")
