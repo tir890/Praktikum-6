@@ -73,11 +73,11 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
 ### **Fungsi Program**
 
 #### **1. Input Data Mahasiswa**
-- Menambahkan data baru dengan nama sebagai kunci utama.
-- Data mahasiswa terdiri dari:
-  - NIM: Nomor Induk Mahasiswa.
-  - Nilai Tugas, UTS, dan UAS.
-  - Nilai akhir dihitung otomatis berdasarkan bobot tertentu.
+Menambahkan data baru dengan nama sebagai kunci utama.
+  Data mahasiswa terdiri dari:
+  •	NIM: Nomor Induk Mahasiswa.
+  •	Nilai Tugas, UTS, dan UAS.
+  •	Nilai akhir dihitung otomatis berdasarkan bobot tertentu.
 
 #### **2. Menampilkan Data Mahasiswa**
 •	Data ditampilkan dalam format tabel dengan informasi berikut:
@@ -85,15 +85,13 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
 •	Jika tidak ada data, program menampilkan pesan bahwa data kosong.
 
 #### **3. Mengubah Data Mahasiswa**
-•	Memperbarui nilai tugas, UTS, dan UAS berdasarkan nama mahasiswa.
-•	Nilai akhir diperbarui otomatis setelah data diubah.
+Memperbarui nilai tugas, UTS, dan UAS berdasarkan nama mahasiswa. Nilai akhir diperbarui otomatis setelah data diubah.
 
 #### **4. Menghapus Data Mahasiswa**
-•	Menghapus data mahasiswa dari daftar berdasarkan nama.
-•	Jika nama tidak ditemukan, menampilkan pesan kesalahan.
+Menghapus data mahasiswa dari daftar berdasarkan nama. Jika nama tidak ditemukan, menampilkan pesan kesalahan.
 
 #### **5. Keluar dari Program**
-•	Menutup program ketika pengguna memilih menu `(K)eluar`.
+Menutup program ketika pengguna memilih menu `(K)eluar`.
 
 ---
 
@@ -105,12 +103,16 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    ```
 2. Pengguna memilih opsi:
    •	Jika **L**: Menampilkan daftar mahasiswa.
+   
    •	Jika **T**: Memasukkan data mahasiswa baru.
+   
    •	Jika **U**: Mengubah data mahasiswa tertentu.
+   
    •	Jika **H**: Menghapus data mahasiswa berdasarkan nama.
+   
    •	Jika **K**: Keluar dari program.
-3. Program terus berjalan dalam loop sampai pengguna memilih untuk keluar.
-4. Pesan dan output tampil sesuai tindakan pengguna.
+4. Program terus berjalan dalam loop sampai pengguna memilih untuk keluar.
+5. Pesan dan output tampil sesuai tindakan pengguna.
 
 ## Hasil Kode Program
 ![Praktikum-6](https://github.com/tir890/Praktikum-6/blob/038bd28f0169a090070056026cadae10e98e4d68/Screenshot%202024-12-03%20104427.png)
