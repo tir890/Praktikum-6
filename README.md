@@ -79,11 +79,10 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    Pengguna memasukkan pilihan, dan program menjalankan fungsi yang sesuai.
 
 7. **Pengulangan Program**:
-
-•	Program berjalan terus dalam loop `while` sampai pengguna memilih `(K)eluar`.
-
-•	Jika pilihan menu tidak valid, program mencetak pesan **"Pilihan tidak valid!"**.
-
+   
+   •	 Program berjalan terus dalam loop `while` sampai pengguna memilih `(K)eluar`.
+   
+   •	Jika pilihan menu tidak valid, program mencetak pesan **"Pilihan tidak valid!"**.
 ---
 
 ### **Fungsi Program**
