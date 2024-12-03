@@ -38,34 +38,49 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
 
 4. **Fungsi `tambah_data()`**:
    **Tujuan**: Menambahkan data mahasiswa baru.
+   
    Input berupa:
+   
    •	**Nama**: Sebagai kunci utama.
+   
    •	**NIM, Tugas, UTS, UAS**: Data lainnya.
+   
    Data disimpan ke dalam `data_mahasiswa` setelah diinput.
 
 6. **Fungsi `hapus_data()`**:
-   - **Tujuan**: Menghapus data mahasiswa berdasarkan nama.
-   - Jika nama ditemukan, data dihapus menggunakan `pop()`.
-   - Jika tidak ditemukan, mencetak pesan bahwa data tidak ada.
+   **Tujuan**: Menghapus data mahasiswa berdasarkan nama.
+   
+   •	Jika nama ditemukan, data dihapus menggunakan `pop()`.
+   
+   •	Jika tidak ditemukan, mencetak pesan bahwa data tidak ada.
 
-7. **Fungsi `ubah_data()`**:
+8. **Fungsi `ubah_data()`**:
    **Tujuan**: Mengubah data mahasiswa yang sudah ada.
    Input berupa:
+
    •	Nama mahasiswa yang ingin diubah.
+   
    •	Nilai baru untuk `tugas`, `uts`, dan `uas`.
+   
    Program memodifikasi nilai langsung dalam dictionary menggunakan `.update()`.
 
-9. **Menu Utama**:
+10. **Menu Utama**:
    Menampilkan menu pilihan untuk pengguna:
    •	`(L)ihat`: Memanggil `tampilkan_data()` untuk melihat data.
+
    •	`(T)ambah`: Memanggil `tambah_data()` untuk menambahkan data.
+   
    •	`(H)apus`: Memanggil `hapus_data()` untuk menghapus data.
+   
    •	`(U)bah`: Memanggil `ubah_data()` untuk mengubah data.
+   
    •	`(K)eluar`: Keluar dari program.
+   
    Pengguna memasukkan pilihan, dan program menjalankan fungsi yang sesuai.
 
-10. **Pengulangan Program**:
+12. **Pengulangan Program**:
 •	Program berjalan terus dalam loop `while` sampai pengguna memilih `(K)eluar`.
+
 •	Jika pilihan menu tidak valid, program mencetak pesan **"Pilihan tidak valid!"**.
 
 ---
@@ -75,8 +90,11 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
 #### **1. Input Data Mahasiswa**
 Menambahkan data baru dengan nama sebagai kunci utama.
   Data mahasiswa terdiri dari:
+
   •	NIM: Nomor Induk Mahasiswa.
+
   •	Nilai Tugas, UTS, dan UAS.
+  
   •	Nilai akhir dihitung otomatis berdasarkan bobot tertentu.
 
 #### **2. Menampilkan Data Mahasiswa**
