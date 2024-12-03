@@ -2,16 +2,16 @@ data_mahasiswa = {}
 
 def tampilkan_data():
     print("\nDaftar Nilai")
-    print("="*66)
+    print("="*63)
     print("| NO |       NAMA      |    NIM    | TUGAS | UTS | UAS |  AKHIR  |")
-    print("="*66)
+    print("="*63)
     if data_mahasiswa:
         for no, (nama, data) in enumerate(data_mahasiswa.items(), start=1):
             akhir = (data['tugas'] * 0.3) + (data['uts'] * 0.35) + (data['uas'] * 0.35)
             print(f"| {no:<2} | {nama:<15} | {data['nim']:<8} | {data['tugas']:<5.0f} | {data['uts']:<3.0f} | {data['uas']:<3.0f} | {akhir:<7.2f} |")
     else:
         print("|                       TIDAK ADA DATA                      |")
-    print("="*66)
+    print("="*63)
 
 def tambah_data():
     nama, nim = input("Nama: ").strip(), input("NIM: ").strip()
