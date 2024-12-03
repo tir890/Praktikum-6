@@ -134,3 +134,5 @@ Menutup program ketika pengguna memilih menu `(K)eluar`.
 
 ## Hasil Kode Program
 ![Praktikum-6](https://github.com/tir890/Praktikum-6/blob/038bd28f0169a090070056026cadae10e98e4d68/Screenshot%202024-12-03%20104427.png)
+
+## Gambar Flowchart
