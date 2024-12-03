@@ -36,7 +36,7 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    
    •	Jika tidak ada data, akan menampilkan pesan **"TIDAK ADA DATA"**.
 
-4. **Fungsi `tambah_data()`**:
+3. **Fungsi `tambah_data()`**:
    **Tujuan**: Menambahkan data mahasiswa baru.
    
    Input berupa:
@@ -47,14 +47,14 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    
    Data disimpan ke dalam `data_mahasiswa` setelah diinput.
 
-6. **Fungsi `hapus_data()`**:
+4. **Fungsi `hapus_data()`**:
    **Tujuan**: Menghapus data mahasiswa berdasarkan nama.
    
    •	Jika nama ditemukan, data dihapus menggunakan `pop()`.
    
    •	Jika tidak ditemukan, mencetak pesan bahwa data tidak ada.
 
-8. **Fungsi `ubah_data()`**:
+5. **Fungsi `ubah_data()`**:
    **Tujuan**: Mengubah data mahasiswa yang sudah ada.
    Input berupa:
 
@@ -64,7 +64,7 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    
    Program memodifikasi nilai langsung dalam dictionary menggunakan `.update()`.
 
-10. **Menu Utama**:
+6. **Menu Utama**:
    Menampilkan menu pilihan untuk pengguna:
    •	`(L)ihat`: Memanggil `tampilkan_data()` untuk melihat data.
 
@@ -78,7 +78,8 @@ Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data maha
    
    Pengguna memasukkan pilihan, dan program menjalankan fungsi yang sesuai.
 
-12. **Pengulangan Program**:
+7. **Pengulangan Program**:
+
 •	Program berjalan terus dalam loop `while` sampai pengguna memilih `(K)eluar`.
 
 •	Jika pilihan menu tidak valid, program mencetak pesan **"Pilihan tidak valid!"**.
