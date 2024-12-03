@@ -24,7 +24,7 @@ Tujuan dari program ini adalah untuk memberikan latihan dalam mengelola data men
 Program menggunakan sebuah dictionary `data_mahasiswa` untuk menyimpan data mahasiswa, dengan struktur:
      ```python
      data_mahasiswa = {
-         "nama": {"nim": "312410474", "tugas": 77.0, "uts": 88.0, "uas": 99.0}
+         "nama": {"nim": "312410474", "tugas": 88.0, "uts": 86.0, "uas": 87.0}
      }
      ```
      Setiap mahasiswa disimpan berdasarkan **nama** sebagai kunci (key), dan nilai-nilai lainnya (`nim`, `tugas`, `uts`, `uas`) sebagai dictionary.
