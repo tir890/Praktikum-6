@@ -24,5 +24,4 @@ Tujuan dari program ini adalah untuk memberikan latihan dalam mengelola data men
 
 
 ## Hasil Kode Program
-![foto](https://github.com/tir890/foto/blob/cd3a05f6f1b321c8fbb6937c528a7b0c360aba00/Screenshot%202024-12-01%20154021.png)
-
+![Praktikum-6](https://github.com/tir890/Praktikum-6/blob/038bd28f0169a090070056026cadae10e98e4d68/Screenshot%202024-12-03%20104427.png)
